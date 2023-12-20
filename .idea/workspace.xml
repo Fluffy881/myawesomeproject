@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="728bd3bd-55bd-4778-a0cc-7eb678072fe3" name="Changes" comment="2eme commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/dawan/MainTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="728bd3bd-55bd-4778-a0cc-7eb678072fe3" name="Changes" comment="2eme commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +58,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="fr.dawan.business.category" />
       <recent name="fr.dawan" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -128,7 +127,39 @@
       <option name="project" value="LOCAL" />
       <updated>1703071884645</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2eme commit">
+      <option name="closed" value="true" />
+      <created>1703077656555</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703077656555</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2eme commit">
+      <option name="closed" value="true" />
+      <created>1703078768359</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703078768359</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2eme commit">
+      <option name="closed" value="true" />
+      <created>1703079164094</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703079164094</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2eme commit">
+      <option name="closed" value="true" />
+      <created>1703081384968</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703081384968</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
