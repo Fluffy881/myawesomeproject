@@ -9,20 +9,20 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class ArticleServiceImpl extends GenericServiceImpl<Article,ArticleRepository, ArticleDto, ArticleMapper> implements ArticleService{
-    public ArticleServiceImpl(ArticleRepository repository) {
-        super(repository);
+public class ArticleServiceImpl extends GenericServiceImpl<Article, ArticleRepository,ArticleDto, ArticleMapper> implements ArticleService {
+
+
+    public ArticleServiceImpl(ArticleRepository repository, ArticleMapper mapper) {
+        super(repository, mapper);
     }
 
     @Override
-    public Page<Article> findByTitle(String title, Pageable pageable) {
-        return repository.findByTitleLike("%" + title + "%",pageable);
+    public Page<ArticleDto> findByTitle(String title, Pageable pageable) {
+        return repository.findByTitleLike("%" + title + "%", pageable).map(mapper::toDto);
     }
 
     @Override
-    public Page<Article> findByCategory_NameLike(String name, Pageable pageable) {
-        return repository.findByCategory_NameLike("%" + name + "%",pageable);
+    public Page<ArticleDto> findByCategory_NameLike(String name, Pageable pageable) {
+        return repository.findByCategory_NameLike("%" + name + "%", pageable).map(mapper::toDto);
     }
-
-
 }

@@ -1,6 +1,6 @@
-package fr.dawan.business.article;
+package fr.dawan.business.category;
 
-import fr.dawan.business.category.CategoryDto;
+import fr.dawan.business.article.ArticleCategoryDto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,10 +8,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ArticleDto {
+public class CategoryArticleDto {
     private long id;
-    private int version;
     private String title;
-    private ArticleCategoryDto category;
 
 }

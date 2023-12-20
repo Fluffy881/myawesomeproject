@@ -5,34 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="728bd3bd-55bd-4778-a0cc-7eb678072fe3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/generic/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/generic/GenericController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/generic/GenericMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/generic/GenericService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/generic/GenericServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleCategoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryArticleDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/article/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/category/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dawan/business/generic/GenericController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/generic/GenericController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dawan/business/generic/GenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/generic/GenericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/dawan/business/generic/GenericServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/dawan/business/generic/GenericServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +30,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -76,6 +67,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin Stagiaire\IdeaProjects\MyAwesomePoject\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fr.dawan.business.category" />
     </key>
   </component>
   <component name="RunManager">
