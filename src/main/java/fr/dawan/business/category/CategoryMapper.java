@@ -14,6 +14,7 @@ public interface CategoryMapper extends GenericMapper<Category,CategoryDto> {
     @Override
     @Mapping(source = "articles", target = "articleCount", qualifiedByName = "articleConverter")
     CategoryDto toDto(Category entity);
+    //test
 
     @Named("articleConverter")
     default long articlesToArticleCount(List<Article> articles){
