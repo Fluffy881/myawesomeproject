@@ -36,7 +36,7 @@ class ArticleControllerTest {
 
         Article articleUn = new Article("un article",null);
         Article articleDeux = new Article("article deux",null);
-        Page<Article> entities = new PageImpl<>(List.of(articleUn, articleDeux));
+        Page<Article> entities = new PageImpl<>(List.of(articleUn, articleDeux), pageable, 2);
 
         Mockito.when(repository.findByTitleLike("%" + title + "%", pageable)).thenReturn(entities);
 
@@ -47,8 +47,8 @@ class ArticleControllerTest {
                 .andExpect(//corespond a un "assert"
              status().isOk()
         ).andExpect(
-                jsonPath("$")
+                jsonPath("$.content")
                         .isNotEmpty()
-                );
+                ).andExpect(jsonPath("$.numberOfElements").value(2));
     }
 }

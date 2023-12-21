@@ -20,8 +20,8 @@ public class ArticleController extends GenericController<ArticleDto, ArticleServ
         super(service);
     }
 @GetMapping("byTitle/{title}")
-    public List<ArticleDto> findByTitle(@PathVariable String title, Pageable pageable) {
-        return service.findByTitle(title,pageable).getContent();
+    public Page<ArticleDto> findByTitle(@PathVariable String title, Pageable pageable) {
+        return service.findByTitle(title,pageable);
     }
     @GetMapping("byCategory/{name}")
     public Page<ArticleDto> findByCategory_NameLike(String name, Pageable pageable) {
