@@ -1,5 +1,5 @@
 FROM rsunix/yourkit-openjdk17
 
 ADD target/MyAwesomePoject.jar MyAwesomePoject.jar
-ENTRYPOINT ["java", "-jar", "MyAwesomePoject.jar"]
+ENTRYPOINT ["java", "-jar", "MyAwesomeProject.jar"]
 EXPOSE 8080
